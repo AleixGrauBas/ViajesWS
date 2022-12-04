@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ViajesWS:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ViajesWS</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ViajesWS-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ViajesWS:war exploded" />
+    </root>
+  </artifact>
+</component>
